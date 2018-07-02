@@ -11,7 +11,7 @@ services:
       - 8000:8000
     volumes:
       - ./:/drf-tutorial/
-    command: python3 manage.py runserver 0.0.0.0:8000
+    command: python3 tutorial/manage.py runserver 0.0.0.0:8000
     tty: true
     stdin_open: true
 
